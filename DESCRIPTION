@@ -1,0 +1,29 @@
+Package: easyDEanalysis
+Type: Package
+Title: Automated Differential Expression Pipeline for RNA-Seq Counts using DESeq2 or edgeR
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Hukam", "Rawal", comment = c(ORCID = "0000-0002-2727-9721"),
+      email = "hukam.rawal@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A streamlined wrapper to perform differential expression analysis using either edgeR or DESeq2 workflows from raw count matrices. It automatically generates structured text outputs and a unified PDF containing diagnostic plots and histograms.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+usethis: use_package("stats", "utils", "usethis")
+Imports: 
+    DESeq2,
+    edgeR,
+    dplyr,
+    data.table,
+    magrittr,
+    RColorBrewer,
+    calibrate,
+    genefilter,
+    gplots,
+    SummarizedExperiment,
+    limma
+Config/roxygen2/version: 8.1.0
