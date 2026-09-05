@@ -30,6 +30,7 @@ library(easyDEanalysis)
 
 # Run the pipeline using DESeq2 or edgeR
 DE.analysis(M = "DESeq2", IN="count_matrix.txt", S="3:3", OUT="DE_analysis", LF="1", FD="0.05")
+#S="3:3" means that in the count matrix file, there are 3 samples from condition 1 (eg. control) and 3 samples from condition 2 (treatment or stressed/patient samples); LF is the log2Fold change threshold, FD is the threshold for adjusted p-value or FDR
 DE.analysis(M = "edgeR", IN="count_matrix.txt", S="3:3", OUT="DE_analysis", LF="1", FD="0.05")
 
 DE.analysis(M = "edgeR", IN="count_matrix.txt", S="3:3")
