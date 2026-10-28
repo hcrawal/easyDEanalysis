@@ -12,15 +12,15 @@ Instead of writing hundreds of lines of repetitive code, researchers can execute
 ## Installation
 
 ## Dependencies: "limma", "SummarizedExperiment", "genefilter", "edgeR", "DESeq2
-# These can be installed through BiocManager:
+These can be installed through BiocManager:
 
-# Install BiocManager from CRAN (if you haven't already)
+#Install BiocManager from CRAN (if you haven't already)
 install.packages("BiocManager")
 
-# Use BiocManager to install all of the required packages
+#Use BiocManager to install all of the required packages
 BiocManager::install(c("limma", "SummarizedExperiment", "genefilter", "edgeR", "DESeq2"))
 
-# You can install the development version of `easyDEanalysis` directly from GitHub using the following R commands:
+#You can install the development version of `easyDEanalysis` directly from GitHub using the following R commands:
 
 ```R
 # If you don't have remotes installed:
