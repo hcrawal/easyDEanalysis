@@ -11,14 +11,23 @@ Instead of writing hundreds of lines of repetitive code, researchers can execute
 
 ## Installation
 
-You can install the development version of `easyDEanalysis` directly from GitHub using the following R commands:
+## Dependencies: "limma", "SummarizedExperiment", "genefilter", "edgeR", "DESeq2
+# These can be installed through BiocManager:
+
+# Install BiocManager from CRAN (if you haven't already)
+install.packages("BiocManager")
+
+# Use BiocManager to install all of the required packages
+BiocManager::install(c("limma", "SummarizedExperiment", "genefilter", "edgeR", "DESeq2"))
+
+# You can install the development version of `easyDEanalysis` directly from GitHub using the following R commands:
 
 ```R
 # If you don't have remotes installed:
 install.packages("remotes")
 
 # Install easyDEanalysis
-remotes::install_github("your_github_username/easyDEanalysis")
+remotes::install_github("hcrawal/easyDEanalysis")
 ```
 
 ## Quick Start Guide
