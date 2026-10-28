@@ -11,7 +11,7 @@ Instead of writing hundreds of lines of repetitive code, researchers can execute
 
 ## Installation
 
-## Dependencies: "limma", "SummarizedExperiment", "genefilter", "edgeR", "DESeq2
+Dependencies: "limma", "SummarizedExperiment", "genefilter", "edgeR", "DESeq2
 These can be installed through BiocManager:
 
 #Install BiocManager from CRAN (if you haven't already)
